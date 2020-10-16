@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
     int num, originalNum, remainder, result = 0;
-    prin("Enter a three-digit integer: ");
-    scan("%d", &num);
+    printf("Enter a three-digit integer: ");
+    scanf("%d", &num);
     originalNum = num;
 
     while (originalNum != 0) {
