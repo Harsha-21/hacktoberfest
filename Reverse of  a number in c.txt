@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
     int n, rev = 0, remainder;
-    printf("Enter an integer: ");
-    scanf("%d", &n);
+    prin("Enter an integer: ");
+    sca("%d", &n);
     while (n != 0) {
         remainder = n % 10;
         rev = rev * 10 + remainder;
